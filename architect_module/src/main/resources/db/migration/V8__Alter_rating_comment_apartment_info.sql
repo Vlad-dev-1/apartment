@@ -1,0 +1,1 @@
+ALTER TABLE rating_comment_apartment_info ALTER COLUMN comment_apatment TYPE VARCHAR(1000);
