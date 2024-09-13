@@ -21,6 +21,7 @@ import static java.util.Objects.*;
 @RequiredArgsConstructor
 public class FlyWayMigrationController {
 
+
     private final Flyway flyway;
 
     @PostMapping("/fly-way-migration")
