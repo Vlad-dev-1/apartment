@@ -47,7 +47,7 @@ public class ApartmentController {
         return integrationApartmentWithGeocoderService.findApartmentByLocation(geoInfoDto);
     }
 
-    @GetMapping(BASE_URL_APARTMENT_CONTROLLER + "/{id}")
+    @GetMapping(ControllerConsts.APARTMENT_BY_ID)
     public ApartmentResponceDto getApartmentInfo(@PathVariable Long id) {
 
         return apartmentService.getApartmentInfoById(id);

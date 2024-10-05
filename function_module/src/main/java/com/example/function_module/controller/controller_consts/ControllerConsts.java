@@ -16,9 +16,11 @@ public class ControllerConsts {
 
     public static final String REGISTRATION_RAITING_COMMENT_APARTMENT = BASE_URL_APARTMENT_CONTROLLER + "/registration-raiting-comment";
 
-    public static final String INTEGRATION_WITH_MICROSERVICE_PRODUCT_MODULE = BASE_URL_APARTMENT_CONTROLLER + "/integration";
+    public static final String INTEGRATION_WITH_MICROSERVICE_PRODUCT_MODULE = BASE_URL_APARTMENT_CONTROLLER + "/integration-pm";
 
     public static final String APARTMENT_BY_LOCATION= BASE_URL_APARTMENT_CONTROLLER + "/apartment-by-location";
+
+    public static final String APARTMENT_BY_ID = BASE_URL_APARTMENT_CONTROLLER + "/{id}";
 
 
 

@@ -16,7 +16,7 @@ public class IntegrationWithProductServiceImpl implements IntegretionWithProduct
 
     private final IntegrationRepository integrationRepository;
 
-    public final static String URL = "http://localhost:9292/test?name=%s";
+    public final static String URL = "http://localhost:9595/auth/v5/test?name=%s";
 
 
     @Override
