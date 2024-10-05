@@ -1,6 +1,7 @@
 package com.example.architect.controller;
 
 
+import com.example.architect.controller.controller_consts.ControllerConsts;
 import com.example.architect.model.fly_migration.FlywayMigrationDto;
 import lombok.RequiredArgsConstructor;
 import org.flywaydb.core.Flyway;
@@ -23,7 +24,7 @@ public class FlyWayMigrationController {
 
     private final Flyway flyway;
 
-    @PostMapping("/fly-way-migration")
+    @PostMapping(ControllerConsts.FLY_WAY_MIGRATION)
     public ResponseEntity<?> saveFlyMigration(@RequestBody FlywayMigrationDto flywayMigrationDto) {
 
         //Получаем имя файла
