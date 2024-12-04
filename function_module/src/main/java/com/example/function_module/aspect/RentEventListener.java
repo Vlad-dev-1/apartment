@@ -16,6 +16,7 @@ public class RentEventListener {
     @AfterReturning(pointcut = POINT_CUT, returning = "result")
     public void saveShowStatistic(JoinPoint joinPoint, Object result){
 
+
         log.info("Начало работы слушателя событий");
         String name = joinPoint.getSignature().getName();
         String resultString = result.toString();
